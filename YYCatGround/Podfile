@@ -1,0 +1,36 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'YYCatGround' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for YYCatGround
+
+  target 'YYCatGroundTests' do
+    inherit! :search_paths
+      pod 'SnapKit'
+  pod 'Alamofire', '~> 5.2'
+  pod 'Moya/RxSwift'
+  pod 'SwiftyJSON'
+  pod 'SwiftTheme'
+  pod 'HABFlowKit'
+  pod 'KakaJSON'
+  pod 'CryptoSwift'
+  pod 'SSZipArchive' #Zip解压
+#  pod 'Firebase/Auth'
+#  pod 'Firebase/Firestore'
+  pod 'RxSwift'
+  pod 'RxCocoa'
+  pod 'CleanJSON'
+  pod 'Result'
+  pod 'HandyJSON'
+  pod 'MBProgressHUD'
+  pod 'NSObject+Rx'
+  end
+
+  target 'YYCatGroundUITests' do
+    # Pods for testing
+  end
+
+end

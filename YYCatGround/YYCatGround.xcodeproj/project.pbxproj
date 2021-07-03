@@ -1,0 +1,752 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45056684CB4B67CE2DFBAD5A /* Pods_YYCatGround_YYCatGroundUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 873E431752DA3198FFAA9E39 /* Pods_YYCatGround_YYCatGroundUITests.framework */; };
+		9907DEEA4B59934DDA46B341 /* Pods_YYCatGround.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D20C7104012A5ED28B368C06 /* Pods_YYCatGround.framework */; };
+		CF868AE8D794E8AD6D383F64 /* Pods_YYCatGroundTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED28FAB25D1851FD9077436D /* Pods_YYCatGroundTests.framework */; };
+		DA73D06A2690145900643ED1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA73D0692690145900643ED1 /* AppDelegate.swift */; };
+		DA73D06C2690145900643ED1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA73D06B2690145900643ED1 /* SceneDelegate.swift */; };
+		DA73D06E2690145900643ED1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA73D06D2690145900643ED1 /* ViewController.swift */; };
+		DA73D0712690145900643ED1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA73D06F2690145900643ED1 /* Main.storyboard */; };
+		DA73D0742690145900643ED1 /* YYCatGround.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DA73D0722690145900643ED1 /* YYCatGround.xcdatamodeld */; };
+		DA73D0762690145A00643ED1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA73D0752690145A00643ED1 /* Assets.xcassets */; };
+		DA73D0792690145A00643ED1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA73D0772690145A00643ED1 /* LaunchScreen.storyboard */; };
+		DA73D0842690145A00643ED1 /* YYCatGroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA73D0832690145A00643ED1 /* YYCatGroundTests.swift */; };
+		DA73D08F2690145A00643ED1 /* YYCatGroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA73D08E2690145A00643ED1 /* YYCatGroundUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA73D0802690145A00643ED1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA73D05E2690145900643ED1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA73D0652690145900643ED1;
+			remoteInfo = YYCatGround;
+		};
+		DA73D08B2690145A00643ED1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA73D05E2690145900643ED1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA73D0652690145900643ED1;
+			remoteInfo = YYCatGround;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		50F877BEEABEC02E14C55E2E /* Pods-YYCatGround-YYCatGroundUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYCatGround-YYCatGroundUITests.release.xcconfig"; path = "Target Support Files/Pods-YYCatGround-YYCatGroundUITests/Pods-YYCatGround-YYCatGroundUITests.release.xcconfig"; sourceTree = "<group>"; };
+		62B2360ECE03A939360CD264 /* Pods-YYCatGround-YYCatGroundUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYCatGround-YYCatGroundUITests.debug.xcconfig"; path = "Target Support Files/Pods-YYCatGround-YYCatGroundUITests/Pods-YYCatGround-YYCatGroundUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7270E452C2A8BED4AA1A006E /* Pods-YYCatGround.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYCatGround.debug.xcconfig"; path = "Target Support Files/Pods-YYCatGround/Pods-YYCatGround.debug.xcconfig"; sourceTree = "<group>"; };
+		7DE62B4A8961283F66AB92B7 /* Pods-YYCatGround.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYCatGround.release.xcconfig"; path = "Target Support Files/Pods-YYCatGround/Pods-YYCatGround.release.xcconfig"; sourceTree = "<group>"; };
+		873E431752DA3198FFAA9E39 /* Pods_YYCatGround_YYCatGroundUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YYCatGround_YYCatGroundUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AA8D19DC69DF538EA95E919 /* Pods-YYCatGroundTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYCatGroundTests.debug.xcconfig"; path = "Target Support Files/Pods-YYCatGroundTests/Pods-YYCatGroundTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D20C7104012A5ED28B368C06 /* Pods_YYCatGround.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YYCatGround.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA73D0662690145900643ED1 /* YYCatGround.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YYCatGround.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA73D0692690145900643ED1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DA73D06B2690145900643ED1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DA73D06D2690145900643ED1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DA73D0702690145900643ED1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA73D0732690145900643ED1 /* YYCatGround.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YYCatGround.xcdatamodel; sourceTree = "<group>"; };
+		DA73D0752690145A00643ED1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA73D0782690145A00643ED1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DA73D07A2690145A00643ED1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA73D07F2690145A00643ED1 /* YYCatGroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YYCatGroundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA73D0832690145A00643ED1 /* YYCatGroundTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YYCatGroundTests.swift; sourceTree = "<group>"; };
+		DA73D0852690145A00643ED1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA73D08A2690145A00643ED1 /* YYCatGroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YYCatGroundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA73D08E2690145A00643ED1 /* YYCatGroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YYCatGroundUITests.swift; sourceTree = "<group>"; };
+		DA73D0902690145A00643ED1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED28FAB25D1851FD9077436D /* Pods_YYCatGroundTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YYCatGroundTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE28BED7E17325314D0CBF6C /* Pods-YYCatGroundTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYCatGroundTests.release.xcconfig"; path = "Target Support Files/Pods-YYCatGroundTests/Pods-YYCatGroundTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA73D0632690145900643ED1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9907DEEA4B59934DDA46B341 /* Pods_YYCatGround.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA73D07C2690145A00643ED1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF868AE8D794E8AD6D383F64 /* Pods_YYCatGroundTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA73D0872690145A00643ED1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45056684CB4B67CE2DFBAD5A /* Pods_YYCatGround_YYCatGroundUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A4EDBA4754CA1F82D59A15B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D20C7104012A5ED28B368C06 /* Pods_YYCatGround.framework */,
+				873E431752DA3198FFAA9E39 /* Pods_YYCatGround_YYCatGroundUITests.framework */,
+				ED28FAB25D1851FD9077436D /* Pods_YYCatGroundTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B7A8327F7684625E24CAAFC8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7270E452C2A8BED4AA1A006E /* Pods-YYCatGround.debug.xcconfig */,
+				7DE62B4A8961283F66AB92B7 /* Pods-YYCatGround.release.xcconfig */,
+				62B2360ECE03A939360CD264 /* Pods-YYCatGround-YYCatGroundUITests.debug.xcconfig */,
+				50F877BEEABEC02E14C55E2E /* Pods-YYCatGround-YYCatGroundUITests.release.xcconfig */,
+				8AA8D19DC69DF538EA95E919 /* Pods-YYCatGroundTests.debug.xcconfig */,
+				FE28BED7E17325314D0CBF6C /* Pods-YYCatGroundTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DA73D05D2690145900643ED1 = {
+			isa = PBXGroup;
+			children = (
+				DA73D0682690145900643ED1 /* YYCatGround */,
+				DA73D0822690145A00643ED1 /* YYCatGroundTests */,
+				DA73D08D2690145A00643ED1 /* YYCatGroundUITests */,
+				DA73D0672690145900643ED1 /* Products */,
+				B7A8327F7684625E24CAAFC8 /* Pods */,
+				9A4EDBA4754CA1F82D59A15B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DA73D0672690145900643ED1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA73D0662690145900643ED1 /* YYCatGround.app */,
+				DA73D07F2690145A00643ED1 /* YYCatGroundTests.xctest */,
+				DA73D08A2690145A00643ED1 /* YYCatGroundUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA73D0682690145900643ED1 /* YYCatGround */ = {
+			isa = PBXGroup;
+			children = (
+				DA73D0692690145900643ED1 /* AppDelegate.swift */,
+				DA73D06B2690145900643ED1 /* SceneDelegate.swift */,
+				DA73D06D2690145900643ED1 /* ViewController.swift */,
+				DA73D06F2690145900643ED1 /* Main.storyboard */,
+				DA73D0752690145A00643ED1 /* Assets.xcassets */,
+				DA73D0772690145A00643ED1 /* LaunchScreen.storyboard */,
+				DA73D07A2690145A00643ED1 /* Info.plist */,
+				DA73D0722690145900643ED1 /* YYCatGround.xcdatamodeld */,
+			);
+			path = YYCatGround;
+			sourceTree = "<group>";
+		};
+		DA73D0822690145A00643ED1 /* YYCatGroundTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA73D0832690145A00643ED1 /* YYCatGroundTests.swift */,
+				DA73D0852690145A00643ED1 /* Info.plist */,
+			);
+			path = YYCatGroundTests;
+			sourceTree = "<group>";
+		};
+		DA73D08D2690145A00643ED1 /* YYCatGroundUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DA73D08E2690145A00643ED1 /* YYCatGroundUITests.swift */,
+				DA73D0902690145A00643ED1 /* Info.plist */,
+			);
+			path = YYCatGroundUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA73D0652690145900643ED1 /* YYCatGround */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA73D0932690145A00643ED1 /* Build configuration list for PBXNativeTarget "YYCatGround" */;
+			buildPhases = (
+				FC4EAF8803CFAC4D40BBD1FE /* [CP] Check Pods Manifest.lock */,
+				DA73D0622690145900643ED1 /* Sources */,
+				DA73D0632690145900643ED1 /* Frameworks */,
+				DA73D0642690145900643ED1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YYCatGround;
+			productName = YYCatGround;
+			productReference = DA73D0662690145900643ED1 /* YYCatGround.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA73D07E2690145A00643ED1 /* YYCatGroundTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA73D0962690145A00643ED1 /* Build configuration list for PBXNativeTarget "YYCatGroundTests" */;
+			buildPhases = (
+				477287C5294FBD1F0B4DB1A3 /* [CP] Check Pods Manifest.lock */,
+				DA73D07B2690145A00643ED1 /* Sources */,
+				DA73D07C2690145A00643ED1 /* Frameworks */,
+				DA73D07D2690145A00643ED1 /* Resources */,
+				EABD44992914E097AB59BD9C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA73D0812690145A00643ED1 /* PBXTargetDependency */,
+			);
+			name = YYCatGroundTests;
+			productName = YYCatGroundTests;
+			productReference = DA73D07F2690145A00643ED1 /* YYCatGroundTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DA73D0892690145A00643ED1 /* YYCatGroundUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA73D0992690145A00643ED1 /* Build configuration list for PBXNativeTarget "YYCatGroundUITests" */;
+			buildPhases = (
+				4D6CD6AFE26B3DDC3E360043 /* [CP] Check Pods Manifest.lock */,
+				DA73D0862690145A00643ED1 /* Sources */,
+				DA73D0872690145A00643ED1 /* Frameworks */,
+				DA73D0882690145A00643ED1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA73D08C2690145A00643ED1 /* PBXTargetDependency */,
+			);
+			name = YYCatGroundUITests;
+			productName = YYCatGroundUITests;
+			productReference = DA73D08A2690145A00643ED1 /* YYCatGroundUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA73D05E2690145900643ED1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					DA73D0652690145900643ED1 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					DA73D07E2690145A00643ED1 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = DA73D0652690145900643ED1;
+					};
+					DA73D0892690145A00643ED1 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = DA73D0652690145900643ED1;
+					};
+				};
+			};
+			buildConfigurationList = DA73D0612690145900643ED1 /* Build configuration list for PBXProject "YYCatGround" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA73D05D2690145900643ED1;
+			productRefGroup = DA73D0672690145900643ED1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA73D0652690145900643ED1 /* YYCatGround */,
+				DA73D07E2690145A00643ED1 /* YYCatGroundTests */,
+				DA73D0892690145A00643ED1 /* YYCatGroundUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA73D0642690145900643ED1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA73D0792690145A00643ED1 /* LaunchScreen.storyboard in Resources */,
+				DA73D0762690145A00643ED1 /* Assets.xcassets in Resources */,
+				DA73D0712690145900643ED1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA73D07D2690145A00643ED1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA73D0882690145A00643ED1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		477287C5294FBD1F0B4DB1A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YYCatGroundTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D6CD6AFE26B3DDC3E360043 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YYCatGround-YYCatGroundUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EABD44992914E097AB59BD9C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YYCatGroundTests/Pods-YYCatGroundTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YYCatGroundTests/Pods-YYCatGroundTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YYCatGroundTests/Pods-YYCatGroundTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC4EAF8803CFAC4D40BBD1FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YYCatGround-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA73D0622690145900643ED1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA73D06E2690145900643ED1 /* ViewController.swift in Sources */,
+				DA73D0742690145900643ED1 /* YYCatGround.xcdatamodeld in Sources */,
+				DA73D06A2690145900643ED1 /* AppDelegate.swift in Sources */,
+				DA73D06C2690145900643ED1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA73D07B2690145A00643ED1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA73D0842690145A00643ED1 /* YYCatGroundTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA73D0862690145A00643ED1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA73D08F2690145A00643ED1 /* YYCatGroundUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA73D0812690145A00643ED1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA73D0652690145900643ED1 /* YYCatGround */;
+			targetProxy = DA73D0802690145A00643ED1 /* PBXContainerItemProxy */;
+		};
+		DA73D08C2690145A00643ED1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA73D0652690145900643ED1 /* YYCatGround */;
+			targetProxy = DA73D08B2690145A00643ED1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DA73D06F2690145900643ED1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA73D0702690145900643ED1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DA73D0772690145A00643ED1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA73D0782690145A00643ED1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA73D0912690145A00643ED1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DA73D0922690145A00643ED1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA73D0942690145A00643ED1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7270E452C2A8BED4AA1A006E /* Pods-YYCatGround.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 632K45F9F8;
+				INFOPLIST_FILE = YYCatGround/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dulpyhb.YYCatGround;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA73D0952690145A00643ED1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DE62B4A8961283F66AB92B7 /* Pods-YYCatGround.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 632K45F9F8;
+				INFOPLIST_FILE = YYCatGround/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dulpyhb.YYCatGround;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DA73D0972690145A00643ED1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AA8D19DC69DF538EA95E919 /* Pods-YYCatGroundTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 632K45F9F8;
+				INFOPLIST_FILE = YYCatGroundTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dulpyhb.YYCatGroundTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YYCatGround.app/YYCatGround";
+			};
+			name = Debug;
+		};
+		DA73D0982690145A00643ED1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE28BED7E17325314D0CBF6C /* Pods-YYCatGroundTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 632K45F9F8;
+				INFOPLIST_FILE = YYCatGroundTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dulpyhb.YYCatGroundTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YYCatGround.app/YYCatGround";
+			};
+			name = Release;
+		};
+		DA73D09A2690145A00643ED1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62B2360ECE03A939360CD264 /* Pods-YYCatGround-YYCatGroundUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 632K45F9F8;
+				INFOPLIST_FILE = YYCatGroundUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dulpyhb.YYCatGroundUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YYCatGround;
+			};
+			name = Debug;
+		};
+		DA73D09B2690145A00643ED1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50F877BEEABEC02E14C55E2E /* Pods-YYCatGround-YYCatGroundUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 632K45F9F8;
+				INFOPLIST_FILE = YYCatGroundUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dulpyhb.YYCatGroundUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YYCatGround;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA73D0612690145900643ED1 /* Build configuration list for PBXProject "YYCatGround" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA73D0912690145A00643ED1 /* Debug */,
+				DA73D0922690145A00643ED1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA73D0932690145A00643ED1 /* Build configuration list for PBXNativeTarget "YYCatGround" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA73D0942690145A00643ED1 /* Debug */,
+				DA73D0952690145A00643ED1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA73D0962690145A00643ED1 /* Build configuration list for PBXNativeTarget "YYCatGroundTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA73D0972690145A00643ED1 /* Debug */,
+				DA73D0982690145A00643ED1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA73D0992690145A00643ED1 /* Build configuration list for PBXNativeTarget "YYCatGroundUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA73D09A2690145A00643ED1 /* Debug */,
+				DA73D09B2690145A00643ED1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DA73D0722690145900643ED1 /* YYCatGround.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DA73D0732690145900643ED1 /* YYCatGround.xcdatamodel */,
+			);
+			currentVersion = DA73D0732690145900643ED1 /* YYCatGround.xcdatamodel */;
+			path = YYCatGround.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DA73D05E2690145900643ED1 /* Project object */;
+}

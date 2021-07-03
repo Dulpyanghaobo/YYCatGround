@@ -1,0 +1,6 @@
+framework module Pods_YYCatGroundTests {
+  umbrella header "Pods-YYCatGroundTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
